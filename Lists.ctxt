@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=Lists
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=
+comment2.target=void\ start()
+comment3.params=
+comment3.target=void\ makeMenus()
+comment4.params=
+comment4.target=javax.swing.JMenu\ makeFileMenu()
+comment5.params=
+comment5.target=javax.swing.JMenu\ makeViewMenu()
+comment6.params=
+comment6.target=javax.swing.JMenu\ makeHelpMenu()
+comment7.params=
+comment7.target=void\ makeContent()
+comment8.params=p
+comment8.target=void\ getPlayer(Player)
+comment9.params=
+comment9.target=void\ findPlayer()
+numComments=10
