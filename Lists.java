@@ -41,6 +41,7 @@ public class Lists
     public static void main (String[] args) 
     {
         Lists listGUI = new Lists();
+        System.setProperty("apple.laf.useScreenMenuBar", "true");
         listGUI.start();
     }
 
@@ -273,11 +274,9 @@ public class Lists
         public void actionPerformed(ActionEvent e)
         {
             JOptionPane.showMessageDialog(frame, 
-                    "Lists\n\nVersion 1.0\nBuild B200803275-1720\n\n" +
-                        "(c) Copyright Merrill Hall 2008\nAll rights reserved\n\n" +
-                        "Visit /\nEducation To Go\n" +
-                        "Intermediate Java Course", 
-                    "About Lists", 
+                    "Lists\n\nVersion 1.0" +
+                        "(c) Copyright Daniel Day 2019\nAll rights reserved\n\n" +
+                       
                     JOptionPane.INFORMATION_MESSAGE);
         }
     }
